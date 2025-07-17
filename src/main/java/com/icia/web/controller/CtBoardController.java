@@ -388,10 +388,6 @@ public class CtBoardController
 			
 			return ajaxResponse;
 		}
-
-
-
-
 }
 			
 

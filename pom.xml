@@ -161,9 +161,16 @@
 		    <version>${org.springframework-version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
     <build>
-    	<sourceDirectory>src/java</sourceDirectory>
+    	<sourceDirectory>src/main/java</sourceDirectory>
     	<plugins>
 	      	<plugin>
 		        <artifactId>maven-compiler-plugin</artifactId>

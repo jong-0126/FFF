@@ -79,15 +79,10 @@ public class FdBoardService {
 	//펀딩 상세 페이지 표시 0309 배정현
 	public FdBoard boardSelect(long fdBbsSeq) {
 		FdBoard fdBoard = null;
-
 		try {
-
 			fdBoard = fdBoardDao.boardSelect(fdBbsSeq);
-
 		} catch (Exception e) {
-
 			logger.error("[FdBoardService] boardView Exception", e);
-
 		}
 		return fdBoard;
 	}
